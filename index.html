@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+   <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+   <header>
+      <div class="siteName" onclick="location.reload()">WEATHER<span>.com</span></div>
+      <div class="changeColor" onclick="changeColor()">Change color</div>
+      <div><input id="inpCity" type="text" placeholder="Dubai"></div>
+   </header>
+
+   <main>
+      <div class="boxWith_information">
+         <div class="boxElem">
+            <div class="Elem Elem1">
+               <div id="cityName"></div>
+               <div>
+                  <div id="curentTime"></div>
+               </div>
+               <div class="row">
+                  <div id="curTemp"></div>
+                  <img id="curTempImg"></img>
+               </div>
+               <div id="curWeather"></div>
+               <div id="feelTemp"></div>
+            </div>
+         </div>
+
+         <div class="boxElem">
+            <div class="Elem Elem2">
+               <div class="gridCont">
+                  <div class="gridElem">Hours</div>
+                  <div class="gridElem" id="gridElem1"></div>
+                  <div class="gridElem" id="gridElem2"></div>
+                  <div class="gridElem" id="gridElem3"></div>
+                  <div class="gridElem" id="gridElem4"></div>
+                  <div class="gridElem" id="gridElem5"></div>
+                  <div class="gridElem" id="gridElem6"></div>
+                  <div class="gridElem">Weather icon</div>
+                  <div class="gridElem"><img id="gridElem7"></div>
+                  <div class="gridElem"><img id="gridElem8"></div>
+                  <div class="gridElem"><img id="gridElem9"></div>
+                  <div class="gridElem"><img id="gridElem10"></div>
+                  <div class="gridElem"><img id="gridElem11"></div>
+                  <div class="gridElem"><img id="gridElem12"></div>
+                  <div class="gridElem">Forecast</div>
+                  <div class="gridElem" id="gridElem13"></div>
+                  <div class="gridElem" id="gridElem14"></div>
+                  <div class="gridElem" id="gridElem15"></div>
+                  <div class="gridElem" id="gridElem16"></div>
+                  <div class="gridElem" id="gridElem17"></div>
+                  <div class="gridElem" id="gridElem18"></div>
+                  <div class="gridElem">Temp (°C)</div>
+                  <div class="gridElem" id="gridElem19"></div>
+                  <div class="gridElem" id="gridElem20"></div>
+                  <div class="gridElem" id="gridElem21"></div>
+                  <div class="gridElem" id="gridElem22"></div>
+                  <div class="gridElem" id="gridElem23"></div>
+                  <div class="gridElem" id="gridElem24"></div>
+                  <div class="gridElem">RealFeel</div>
+                  <div class="gridElem" id="gridElem25"></div>
+                  <div class="gridElem" id="gridElem26"></div>
+                  <div class="gridElem" id="gridElem27"></div>
+                  <div class="gridElem" id="gridElem28"></div>
+                  <div class="gridElem" id="gridElem29"></div>
+                  <div class="gridElem" id="gridElem30"></div>
+                  <div class="gridElem">Wind (km/h)</div>
+                  <div class="gridElem" id="gridElem31"></div>
+                  <div class="gridElem" id="gridElem32"></div>
+                  <div class="gridElem" id="gridElem33"></div>
+                  <div class="gridElem" id="gridElem34"></div>
+                  <div class="gridElem" id="gridElem35"></div>
+                  <div class="gridElem" id="gridElem36"></div>
+               </div>
+            </div>
+         </div>
+
+         <div class="boxElem">
+            <div class="Elem3">
+            </div>
+         </div>
+      </div>
+
+      <div id="blockEror">
+         <div id="ElemEror">
+            <div class="four44">404</div>
+            <div class="textEror1">
+               Not found city:
+               <spun id="erorCity"></spun>
+            </div>
+            <div class="textEror2">Input another location</div>
+         </div>
+      </div>
+   </main>
+
+   <script src="./main.js"></script>
+</body>
+
+</html>
